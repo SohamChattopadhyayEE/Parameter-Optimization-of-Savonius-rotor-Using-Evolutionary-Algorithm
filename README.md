@@ -1,5 +1,5 @@
 # Parameter Optimization of Savonius rotor Using Evolutionary Algorithm
-Refer to https://github.com/7ossam81/EvoloPy/tree/master/optimizers for using some other OAs similar to that of GSA.
+Refer to https://github.com/7ossam81/EvoloPy/tree/master/optimizers for using some other OAs similar to that of GSA. Using GSA following function is optimized ![function](https://github.com/SohamChattopadhyayEE/Parameter-Optimization-of-Savonius-rotor-Using-Evolutionary-Algorithm/blob/main/images/WhatsApp%20Image%202021-11-24%20at%2013.46.26.jpeg)
 ## Dependencies
     pip inatall -r requirements.txt
 ## Arguments
