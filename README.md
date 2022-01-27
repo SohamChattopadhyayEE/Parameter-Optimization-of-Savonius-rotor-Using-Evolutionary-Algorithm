@@ -32,4 +32,4 @@ Refer to https://github.com/7ossam81/EvoloPy/tree/master/optimizers for using so
           -i ITER, --iter ITER  Number of iterations
           -r RUN, --run RUN     Number of runs
 ## Execution
-    *\Gravitational-Search-Algorithm> python optimizer.py -lb1 0.5 -ub1 20 -lb3 21 -ub3 41 -dim 4
+    *\Gravitational-Search-Algorithm> python optimizer.py -lb1 0.5 -ub1 20 -lb3 21 -ub3 41 -dim 4 
