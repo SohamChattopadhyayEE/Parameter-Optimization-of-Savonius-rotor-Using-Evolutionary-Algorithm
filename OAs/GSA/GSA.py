@@ -89,6 +89,7 @@ def GSA(objf,lb,ub,dim,PopSize,iters):
       
         if (l%1==0):
                print(['At iteration '+ str(l+1)+ ' the best fitness is '+ str(gBestScore)])
+               print('The best solution : ', gBest )
     timerEnd=time.time()  
     s.endTime=time.strftime("%Y-%m-%d-%H-%M-%S")
     s.executionTime=timerEnd-timerStart

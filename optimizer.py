@@ -33,8 +33,12 @@ parser.add_argument('-ub3','--ub3',type=int,default=10,
 parser.add_argument('-lb4','--lb4',type=int,default=10,
                     help="Lower bound of v")
 parser.add_argument('-ub4','--ub4',type=int,default=10,
-                    help="Upper bound of v")                    
-parser.add_argument('-dm','--dim',type=int,default=4,
+                    help="Upper bound of v") 
+parser.add_argument('-lb5','--lb5',type=int,default=5,
+                    help="Lower bound of t")
+parser.add_argument('-ub5','--ub5',type=int,default=20,
+                    help="Upper bound of t")                    
+parser.add_argument('-dm','--dim',type=int,default=5,
                     help="Dimension/Number of variables")  
 
 # OA parameters
@@ -47,7 +51,8 @@ parser.add_argument('-r','--run',type=int,default=1,
                     help="Number of runs")
 args = parser.parse_args()
 
-func = benchmark_function(args.lb1,args.ub1,args.lb2,args.ub2,args.lb3,args.ub3,args.lb4,args.ub4,args.dim)
+func = benchmark_function(args.lb1,args.ub1,args.lb2,args.ub2,args.lb3,args.ub3,
+                            args.lb4,args.ub4,args.lb5,args.ub5,args.dim)
 
 def selector(algo,func_details,popSize,Iter):
     function_name=func_details[0]
